@@ -10,8 +10,7 @@ string_sess = os.environ.get("STRING_SESSION")
 ORIGENES = [
     -1001978284886,
     -1001559825481,
-    -1003718109552
-    ]
+    -1003718109552]
 DESTINO = -1003829930906
 
 KEYWORDS = ["Approved.!! ✅",,"Approved! ✅","Approved ✅","APPROVED! ✅"]
@@ -37,3 +36,4 @@ async def main():
 if __name__ == "__main__":
 
     asyncio.run(main())
+
