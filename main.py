@@ -12,7 +12,7 @@ ORIGENES = [-1001978284886,
     -1003718109552]
 DESTINO = -1003829930906
 
-KEYWORDS = ["Approved.!! ✅","Approved! ✅","Approved ✅","APPROVED! ✅"]
+KEYWORDS = ["Approved.!! ✅","Approved! ✅","Approved ✅","APPROVED! ✅","Approved.!! ✅","Approved.!! ✅"]
 
 client = TelegramClient(StringSession(string_sess), api_id, api_hash)
 
@@ -35,6 +35,7 @@ async def main():
 if __name__ == "__main__":
 
     asyncio.run(main())
+
 
 
 
