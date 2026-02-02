@@ -7,10 +7,14 @@ api_id = int(os.environ.get("API_ID"))
 api_hash = os.environ.get("API_HASH")
 string_sess = os.environ.get("STRING_SESSION")
 
-ORIGENES = [-1001978284886]
+ORIGENES = [
+    -1001978284886,
+    -1001559825481,
+    -1003718109552
+    ]
 DESTINO = -1003829930906
 
-KEYWORDS = ["Approved.!! ✅", "Approved ✅"]
+KEYWORDS = ["Approved.!! ✅",,"Approved! ✅","Approved ✅","APPROVED! ✅"]
 
 client = TelegramClient(StringSession(string_sess), api_id, api_hash)
 
@@ -31,4 +35,5 @@ async def main():
     await client.run_until_disconnected()
 
 if __name__ == "__main__":
+
     asyncio.run(main())
